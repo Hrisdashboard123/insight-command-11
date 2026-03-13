@@ -13,6 +13,7 @@ import AnalyticsDashboard from "./pages/dashboard/AnalyticsDashboard";
 import StrategicReports from "./pages/dashboard/StrategicReports";
 import PredictiveIntelligence from "./pages/dashboard/PredictiveIntelligence";
 import BIFeed from "./pages/dashboard/BIFeed";
+import DataExports from "./pages/dashboard/DataExports";
 import SettingsPage from "./pages/dashboard/SettingsPage";
 import NotFound from "./pages/NotFound";
 
