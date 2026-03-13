@@ -11,6 +11,7 @@ import {
   Settings,
   ChevronLeft,
   ChevronRight,
+  Download,
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -23,6 +24,7 @@ const navItems = [
   { title: "Strategic Reports", path: "/dashboard/reports", icon: FileText },
   { title: "Predictive Intel", path: "/dashboard/predictive", icon: BrainCircuit },
   { title: "BI Feed", path: "/dashboard/feed", icon: Rss },
+  { title: "Data Exports", path: "/dashboard/exports", icon: Download },
   { title: "Settings", path: "/dashboard/settings", icon: Settings },
 ];
 

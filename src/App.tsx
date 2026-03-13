@@ -13,6 +13,7 @@ import AnalyticsDashboard from "./pages/dashboard/AnalyticsDashboard";
 import StrategicReports from "./pages/dashboard/StrategicReports";
 import PredictiveIntelligence from "./pages/dashboard/PredictiveIntelligence";
 import BIFeed from "./pages/dashboard/BIFeed";
+import DataExports from "./pages/dashboard/DataExports";
 import SettingsPage from "./pages/dashboard/SettingsPage";
 import NotFound from "./pages/NotFound";
 
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="reports" element={<StrategicReports />} />
             <Route path="predictive" element={<PredictiveIntelligence />} />
             <Route path="feed" element={<BIFeed />} />
+            <Route path="exports" element={<DataExports />} />
             <Route path="settings" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
