@@ -37,6 +37,7 @@ const App = () => (
             <Route path="reports" element={<StrategicReports />} />
             <Route path="predictive" element={<PredictiveIntelligence />} />
             <Route path="feed" element={<BIFeed />} />
+            <Route path="exports" element={<DataExports />} />
             <Route path="settings" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
